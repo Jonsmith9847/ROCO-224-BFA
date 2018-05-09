@@ -72,3 +72,6 @@ This project would require at least one camera view, preferably multiple, and yo
 ### Conclusion
 
 * Briefly conclude this part of the coursework
+
+
+This project would require at least one camera view, preferably multiple, and you would be asked to design an experiment to test the system simulating the distance/delay (by e.g. sitting in an adjoining room). The task could be to ideally grasp and move a set of modules (say a set of cylinders/cubes etc sat loosely in a set of slots) to another location (say another set of slots), and back again in the minimum amount of time. The minimum movement distance for each modules to be moved is 25 cm. The arm should be teleoperated with your preferred input device. Additional autonomous functionality would be a bonus.
