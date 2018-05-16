@@ -1,0 +1,81 @@
+j1_controller:
+  controller:
+    package: dynamixel_controllers
+    module: joint_position_controller
+    type: JointPositionController
+  joint_name: turret
+  joint_speed: 1.0
+  motor:
+    id: 6
+    init: 0
+    min: 0
+    max: 4095
+
+j2_controller:
+  controller:
+    package: dynamixel_controllers
+    module: joint_position_controller_dual_motor
+    type: JointPositionControllerDual
+  joint_name: seg_1
+  joint_speed: 1.0
+  motor_master:
+    id: 2
+    init: 0
+    min: -1023
+    max: 1023
+  motor_slave:
+    id: 13
+
+j3_controller:
+  controller:
+    package: dynamixel_controllers
+    module: joint_position_controller
+    type: JointPositionController
+  joint_name: seg_2
+  joint_speed: 1.0
+  motor:
+    id: 9
+    init: 0
+    min: 0
+    max: 4095
+
+j4_controller:
+  controller:
+    package: dynamixel_controllers
+    module: joint_position_controller
+    type: JointPositionController
+  joint_name: seg_3
+  joint_speed: 1.0
+  motor:
+    id: 11
+    init: 0
+    min: 0
+    max: 4095
+
+j5_controller:
+  controller:
+    package: dynamixel_controllers
+    module: joint_position_controller
+    type: JointPositionController
+  joint_name: ee_rot
+  joint_speed: 1.0
+  motor:
+    id: 20
+    init: 0
+    min: 0
+    max: 4095
+
+j6_controller:
+  controller:
+    package: dynamixel_controllers
+    module: joint_position_controller
+    type: JointPositionController
+  joint_name: ee_grab
+  joint_speed: 1.0
+  motor:
+    id: 17
+    init: 0
+    min: 0
+    max: 4095
+
+                                        
